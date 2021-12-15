@@ -4,10 +4,10 @@
 
 
 # OOP Principles Used:
-#   No principles are used in this file.
+#   Alot of of abstraction.
 #
 # Reasoning:
-#   n/a
+#   This file is hiding all of the programs code behind a couple of methods.
 
 
 

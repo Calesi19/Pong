@@ -48,7 +48,7 @@ class Director:
         while True:
             
             self.screen.window.update()
-            self.ball.move()
+            self.ball.move_freely()
                 
 
             self.ball.check_collision(self.player1, self.player2, self.screen_overlay)

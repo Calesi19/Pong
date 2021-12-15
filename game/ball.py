@@ -34,7 +34,7 @@ class Ball(Turtle):
         
         
 
-    def move(self):
+    def move_freely(self):
         for i in range(0, constants.BALL_MOVEMENT_SPEED):
             self.setx(self.xcor() + self.dx)
             self.sety(self.ycor() + self.dy)

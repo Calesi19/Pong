@@ -6,13 +6,16 @@
 
 
 # OOP Principles Used:
-#   A little of encapsulation is used. A principle used here is inheritance. 
+#   A little of encapsulation is used. A principle used here is inheritance. Some slighlty insignificant polymorphysm is used. 
 #
 # Reasoning:
 #   
 #The class also features an encapsulation design by making some of its attributes private and only accessible through methods.
 #This classes inherits from the Turtle class. The Turtle class holds methods
 # and attributes that allow the program to draw the paddle and track its position.
+# You could consider the methods moveUp and moveDown an application of polymorphysm; alot of actors use have the attributes neccessary
+# for these methods to work on them. In this case, they are only restricted to the paddle class since only the paddle class needs them.
+# These methods work on any paddle regardless of its shape, color, or size.
 
 
 
