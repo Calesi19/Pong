@@ -1,0 +1,40 @@
+
+#Window Values
+SCREEN_HEIGHT = 600
+SCREEN_WIDTH = 800
+
+SCREEN_BACKGROUND_COLOR = 'black'
+SCREEN_TITLE = 'Pong by Carlos Lespin'
+
+
+
+#Paddle Values
+PADDLE_WIDTH = 5
+PADDLE_HEIGHT = 1
+
+PADDLE_SHAPE = 'square'
+PADDLE_BORDER_COLOR = 'white'
+PLAYER1_PADDLE_FILL_COLOR = 'red'
+PLAYER2_PADDLE_FILL_COLOR = 'blue'
+PADDLE_MOVEMENT_SPEED = 20
+
+
+#Ball Values
+BALL_COLOR = 'white'
+BALL_MOVEMENT_SPEED = 6
+
+
+#Text Values
+TEXT_COLOR = 'white'
+TEXT_FONT = 'Meatball'
+
+#GameValues
+OBJECTIVE = 5
+
+
+#Control Mapping
+PLAYER1_UP_KEY = 'Up'
+PLAYER1_DOWN_KEY = 'Down'
+
+PLAYER2_UP_KEY = 'w'
+PLAYER2_DOWN_KEY = 's'
