@@ -6,7 +6,8 @@
 
 
 # OOP Principles Used:
-#   A little of encapsulation is used. A principle used here is inheritance. Some slighlty insignificant polymorphysm is used. 
+#   A little of encapsulation is used. A principle used here is inheritance. Some slighlty insignificant polymorphysm is used.
+#   Abstraction is used.
 #
 # Reasoning:
 #   
@@ -16,6 +17,8 @@
 # You could consider the methods moveUp and moveDown an application of polymorphysm; alot of actors use have the attributes neccessary
 # for these methods to work on them. In this case, they are only restricted to the paddle class since only the paddle class needs them.
 # These methods work on any paddle regardless of its shape, color, or size.
+# These same methods that allow of the paddles to move are an example of abstractions. The coordinates of these paddles are being
+# manipulated, yet the user only needs to call either the moveUp() or moveDown() methods to control the paddles; the math involved in this is hidden.
 
 
 

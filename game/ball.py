@@ -7,12 +7,15 @@
 
 
 # OOP Principles Used:
-#   A principle used here is inheritance. 
+#   A principle used here is inheritance. Abractions is used here too. 
 #
 # Reasoning:
 #   Since this classes inherits from the Turtle class. The Turtle class holds methods
 # and attributes that allow the program to draw the ball and track its position.
 #
+#
+# The user only needs to call the move_freely() method to have the ball move around the screen. How this these movements
+# is achieved is hidden from the user. Same can be said for the check_collision() method.
 
 
 
