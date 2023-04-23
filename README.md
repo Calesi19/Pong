@@ -1,2 +1,5 @@
-# pong_final
-I will be making the game "pong" where a ball bounces off two parallel columns (paddles) that move up and down. These columns are trying to bounce the ball into the opposing side, trying to make the opposing paddle miss and not return the ball. The player controlling the paddle that got the ball thrrough the opposing paddle will receive a point. The game plays until a player reaches 5 points and is declared a winner.
+# Pong in Python
+
+<img="pong.gif" width="400px">
+
+The game involves a ball that bounces between two parallel columns (paddles) that have vertical movement capabilities. These columns serve to prevent the ball from entering the opposing side, thereby scoring a point. The player that successfully navigates the ball through the opposing paddle scores a point. The game concludes when a player reaches a score of 5 points, subsequently declared the winner. This repository served as good OOP practice. Run __main__.py file to play.
